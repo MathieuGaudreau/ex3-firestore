@@ -5,7 +5,6 @@ import { useEffect, useState } from 'react';
 /******* Ex#3 - Étape D ********************************/ 
 // Importer l'objet bd du fichier firebase.js
 import bd from '../data/firebase';
-
 export default function ListeProduits(props) {
   /******* Ex#3 - Étape E ********************************/ 
   // Créer un "état" React pour les produits (utiliser useState)
